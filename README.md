@@ -17,7 +17,6 @@ The dataset contains customer-related information such as:
 - Service usage details
 - Churn status
 
-Dataset Source: (Add your dataset source/link here)
 
 ## Technologies Used
 - Python
