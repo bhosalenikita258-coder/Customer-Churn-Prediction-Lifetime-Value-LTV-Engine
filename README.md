@@ -17,6 +17,7 @@ The dataset contains customer-related information such as:
 - Service usage details
 - Churn status
 
+Dataset Source: (Add your dataset source/link here)
 
 ## Technologies Used
 - Python
@@ -28,32 +29,70 @@ The dataset contains customer-related information such as:
 
 ## Project Workflow
 
-### 1. Data Collection
-- Load customer dataset
-- Understand dataset structure
+### Day 1: Data Collection and Understanding
+#### Step 1: Import Required Libraries
+- Imported essential Python libraries for data analysis and visualization.
 
-### 2. Data Preprocessing
-- Handle missing values
-- Encode categorical variables
-- Feature scaling
+#### Step 2: Load Dataset
+- Loaded the customer churn dataset into a Pandas DataFrame.
 
-### 3. Exploratory Data Analysis (EDA)
-- Visualize customer patterns
-- Identify important features
+#### Step 3: Explore Dataset
+- Checked dataset dimensions, columns, and basic information.
 
-### 4. Model Building
-- Split dataset into training and testing sets
-- Train machine learning models
+#### Step 4: Check Missing Values
+- Identified null values and assessed data quality.
 
-### 5. Model Evaluation
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
+#### Step 5: Data Summary
+- Generated descriptive statistics to understand feature distributions.
 
-## Results
-The project predicts whether a customer is likely to churn based on historical customer data.
+---
 
-## Future Improvements
-- Hyperparameter tuning
-- Deploy model using web applications
-- Improve prediction accuracy
+### Day 2: Data Cleaning and Preprocessing
+#### Step 6: Handle Missing Values
+- Treated missing values appropriately.
+
+#### Step 7: Remove Duplicates
+- Checked and removed duplicate records if present.
+
+#### Step 8: Encode Categorical Variables
+- Converted categorical data into numerical format.
+
+#### Step 9: Feature Scaling
+- Standardized numerical features for model training.
+
+#### Step 10: Prepare Final Dataset
+- Created a cleaned dataset ready for analysis and modeling.
+
+---
+
+### Day 3: Exploratory Data Analysis (Completed till Step 4)
+
+#### Step 1: Analyze Target Variable (Churn)
+- Examined the distribution of churned and retained customers.
+- Identified the balance between classes.
+
+#### Step 2: Visualize Customer Demographics
+- Explored demographic features such as gender and senior citizen status.
+- Observed customer distribution across categories.
+
+#### Step 3: Analyze Service Usage Features
+- Studied customer subscriptions and service usage patterns.
+- Investigated relationships between services and churn behavior.
+
+#### Step 4: Correlation Analysis
+- Examined relationships among numerical variables.
+- Identified features that may influence customer churn.
+
+---
+
+## Results So Far
+- Dataset successfully cleaned and preprocessed.
+- Initial exploratory data analysis completed.
+- Key customer and service-related patterns identified.
+- Data prepared for further analysis and machine learning model development.
+
+## Future Work
+- Complete remaining EDA steps.
+- Perform feature selection.
+- Build and train machine learning models.
+- Evaluate model performance and improve accuracy.
